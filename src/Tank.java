@@ -35,7 +35,7 @@ public class Tank {
         System.out.println("The Tank is at " + x + ", " + y + ", fuel = " + fuel + " now!");
 
     }
-    public void turnLeft() {
+   /* public void turnLeft() {
         dir--;
         if (dir == -1) dir = 3;
     }
@@ -43,7 +43,7 @@ public class Tank {
     public void turnRight() {
         dir++;
         if (dir == 4) dir = 0;
-    }
+    }*/
 
     public void goBackward(int i) {
         goForward(-i);
